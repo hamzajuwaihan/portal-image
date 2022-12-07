@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.cohort {
+  height: 500px;
+  width: 500px;
+  background-image: url('../public/images/WhatsApp\ Image\ 2022-12-06\ at\ 6.36.00\ PM.jpeg');
+  translate: 100% 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#majd {
+  position: absolute;
+  top: 320px;
+  left: 90px;
+  border-radius: 50%;
+  padding: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#majd:active {
+  transform: scale(1.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#hasan {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+#jameel {
+  position: absolute;
+  top: 290px;
+  left: -10px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#rahaf {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+#qassem {
+  position: absolute;
+  top: 290px;
+  left: 70px;
+  border-radius: 50%;
+  padding: 10px;
 }
